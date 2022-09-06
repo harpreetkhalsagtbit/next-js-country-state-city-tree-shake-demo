@@ -29,8 +29,8 @@
 }
 
 .title a {
-  color: #0070f3;
-  text-decoration: none;
+  color: #93a9dc;
+  text-decoration: underline;
 }
 
 .title a:hover,
@@ -43,6 +43,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  padding-bottom: 15px;
 }
 
 .title,
@@ -88,8 +89,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #385385;
+  border-color: #385385;
 }
 
 .card h2 {

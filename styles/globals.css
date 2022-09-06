@@ -21,6 +21,26 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: #385385;
   }
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  color: #385385;
+  background-color: white;
+  padding: 8px;
+}
+
+select {
+  font-size: 20px;
+  color: #385385;
+  background-color: white;
+}
+
+a {
+  color: #93a9dc;
+  text-decoration: underline;
 }
