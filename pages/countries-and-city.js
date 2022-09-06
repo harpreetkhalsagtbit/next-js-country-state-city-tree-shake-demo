@@ -22,7 +22,10 @@ function CountryAndCity() {
                 </h1>
                 <div className="CountryComponent">
                     <code>import &#123; Country, City &#125; from &lsquo;country-state-city&rsquo;;</code>
-                    <p>(Resource size measurement via browser&apos;s Performance API)</p>
+                    <div className='flex-wrapper'>
+                        <p>(Resource size measurement via browser&apos;s Performance API)</p>
+                        <p>(may need to Refresh once)</p>
+                    </div>
                     <ul style={{
                         display: "flex",
                         flexDirection: "column",
@@ -37,7 +40,9 @@ function CountryAndCity() {
                             })
                         }
                     </ul>
-                    <CountryAndCityComponent></CountryAndCityComponent>
+                    <div className='flex-wrapper'>
+                        <CountryAndCityComponent></CountryAndCityComponent>
+                    </div>
                 </div>
 
             </main>

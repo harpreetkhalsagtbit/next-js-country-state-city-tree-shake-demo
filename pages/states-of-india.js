@@ -22,7 +22,10 @@ function State() {
                 </h1>
                 <div className="StateComponent">
                     <code>import &#123; State &#125; from &lsquo;country-state-city&rsquo;;</code>
-                    <p>(Resource size measurement via browser&apos;s Performance API)</p>
+                    <div className='flex-wrapper'>
+                        <p>(Resource size measurement via browser&apos;s Performance API)</p>
+                        <p>(may need to Refresh once)</p>
+                    </div>
                     <ul style={{
                         display: "flex",
                         flexDirection: "column",
@@ -37,8 +40,10 @@ function State() {
                             })
                         }
                     </ul>
-                    <p>All States of a Country - India</p>
-                    <StateComponent countryCode='IN'></StateComponent>
+                    <div className='flex-wrapper'>
+                        <p>All States of a Country - India</p>
+                        <StateComponent countryCode='IN'></StateComponent>
+                    </div>
                 </div>
             </main>
 

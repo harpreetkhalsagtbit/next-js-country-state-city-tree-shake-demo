@@ -21,7 +21,7 @@ a {
   }
   body {
     color: white;
-    background: #385385;
+    background: #222;
   }
 }
 
@@ -32,6 +32,19 @@ code {
   color: #385385;
   background-color: white;
   padding: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-wrapper p {
+  margin: 1px;
 }
 
 select {

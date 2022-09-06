@@ -22,7 +22,10 @@ function City() {
 				</h1>
 				<div className="CityComponent">
 					<code>import &#123; City &#125; from &lsquo;country-state-city&rsquo;;</code>
-					<p>(Resource size measurement via browser&apos;s Performance API)</p>
+                    <div className='flex-wrapper'>
+                        <p>(Resource size measurement via browser&apos;s Performance API)</p>
+                        <p>(may need to Refresh once)</p>
+                    </div>
 					<ul style={{
 						display: "flex",
 						flexDirection: "column",
@@ -37,8 +40,10 @@ function City() {
 							})
 						}
 					</ul>
-					<p>All Cities of a State - Telangana(India)</p>
-					<CityComponent countryCode='IN' cityCode='TG'></CityComponent>
+                    <div className='flex-wrapper'>
+						<p>All Cities of a State - Telangana(India)</p>
+						<CityComponent countryCode='IN' cityCode='TG'></CityComponent>
+					</div>
 				</div>
 			</main>
 
